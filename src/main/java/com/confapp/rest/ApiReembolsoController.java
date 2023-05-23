@@ -58,7 +58,7 @@ public class ApiReembolsoController {
 	@PostMapping("/auth")
 	public TokenDTO autenticar(@RequestBody CredenciaisDTO credenciais) {
 
-
+            System.err.println("Teste:");
 
 		 try{
 			Usuario usuario = new Usuario();
